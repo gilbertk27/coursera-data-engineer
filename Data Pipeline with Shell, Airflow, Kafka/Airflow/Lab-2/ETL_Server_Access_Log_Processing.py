@@ -9,9 +9,9 @@ from airflow.utils.dates import days_ago
 #defining DAG arguments
 # You can override them on a per-task basis during operator initialization
 default_args = {
-    'owner': 'Ramesh Sannareddy',
+    'owner': 'Gilbert KH',
     'start_date': days_ago(0),
-    'email': ['ramesh@somemail.com'],
+    'email': ['admin@gmail.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
